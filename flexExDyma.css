@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+    color: #333;
+  }
+.container_principal{
+    background-color: khaki;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.header{
+    background-color: chartreuse;   
+    flex-basis: 70px ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.container_secondaire{
+    flex:1 ;
+    background-color: darkturquoise;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+.nav{
+    background-color: darkorchid;
+    flex:1;
+    display: flex;    
+    flex-direction: column; 
+    margin:4px 2px 4px 4px;   
+}
+.nav span{
+    flex-basis: 5%;
+    margin: 0.5rem;
+    text-align: center;
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.2rem;
+
+}
+.lien{
+    background-color: yellow;
+    flex-basis: 10%;
+    margin: 0.5rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: green; 
+    font-weight: bold;
+    font-size: 1rem;
+}
+.content{
+    background-color: darkturquoise;
+    flex:4;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+.section1{
+    flex: 1 ;
+    display:flex;  
+    flex-flow: row;
+    justify-content: stretch;
+    align-content: stretch;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.section2{
+    flex: 1 ;
+    display:flex;  
+    flex-flow: row;
+    justify-content: stretch;
+    align-content: stretch;
+    margin-bottom: 2px;
+    margin-right: 2px;
+
+}
+.art{
+    flex:1;
+    background-color: indigo;
+    min-width: 250px;
+    min-height: 50px;    
+    margin: 2px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.2rem;
+
+     }
+
+.footer{
+    background-color: grey;
+    flex-basis: 70px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
